@@ -1,0 +1,6 @@
+---
+ tasks:
+ - name: test of the copy
+   file:
+     path: /temp/anirudhmishra
+     state: touch
