@@ -1,0 +1,8 @@
+---
+- name: details
+  hosts: 10.0.0.8
+  tasks:
+  - name: tasks details
+    file:
+      path: /tmp/anirudhmishra
+      state: touch
