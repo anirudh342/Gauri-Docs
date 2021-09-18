@@ -1,4 +1,6 @@
 ---
+- name: test implementation
+  hosts: localhost
  tasks:
  - name: test of the copy
    file:
