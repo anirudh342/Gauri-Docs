@@ -1,8 +1,8 @@
 ---
 - name: test implementation
   hosts: localhost
- tasks:
- - name: test of the copy
-   file:
-     path: /temp/anirudhmishra
-     state: touch
+  tasks:
+  - name: test of the copy
+    file:
+      path: /tmp/anirudhmishra
+      state: touch
