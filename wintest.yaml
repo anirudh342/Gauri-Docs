@@ -3,6 +3,6 @@
   hosts: 10.0.0.8
   tasks:
   - name: tasks details
-    file:
+    win_file:
       path: C:\Temp\anirudhmishra
       state: touch
