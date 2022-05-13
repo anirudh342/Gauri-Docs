@@ -1,8 +1,0 @@
----
-- name: details
-  hosts: 10.0.0.8
-  tasks:
-  - name: tasks details
-    win_file:
-      path: C:\Temp\anirudhmishra
-      state: touch
