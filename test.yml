@@ -5,5 +5,7 @@
   
   tasks
   - name: Check if SSHD is running
-    command: systemctl status ssh
+    file:
+      path: /tmp/anirudh
+      state: present
     ignore_errors: yes
