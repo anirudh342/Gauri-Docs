@@ -1,5 +1,9 @@
 ---
-- tasks
-  name: Check if SSHD is running
-  command: systemctl status ssh
-  ignore_errors: yes
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  
+  tasks
+  - name: Check if SSHD is running
+    command: systemctl status ssh
+    ignore_errors: yes
