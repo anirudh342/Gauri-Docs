@@ -3,9 +3,9 @@
   connection: local
   gather_facts: false
   
-  tasks
+  tasks:
   - name: Check if SSHD is running
     file:
       path: /tmp/anirudh
-      state: present
+      state: touch
     ignore_errors: yes
