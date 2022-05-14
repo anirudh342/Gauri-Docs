@@ -4,7 +4,7 @@
   gather_facts: false
   
   tasks:
-  - name: Check if SSHD is running
+  - name: create file
     file:
       path: /tmp/anirudh
       state: touch
