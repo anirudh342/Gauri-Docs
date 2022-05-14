@@ -1,4 +1,5 @@
 ---
-- name: Check if SSHD is running
+- tasks
+  name: Check if SSHD is running
   command: systemctl status ssh
   ignore_errors: yes
