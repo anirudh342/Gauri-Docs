@@ -1,6 +1,4 @@
 ---
-hosts: client
-tasks:
 - name: tasks details
     file:
     path: /tmp/anirudhmishra
