@@ -1,5 +1,5 @@
 ---
 - name: tasks details
-    file:
+  file:
     path: /tmp/anirudhmishra
     state: touch
